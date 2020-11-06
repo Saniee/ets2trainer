@@ -41,6 +41,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,6 +116,7 @@
             // 
             this.SetEXP.BackColor = System.Drawing.Color.Gray;
             this.SetEXP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SetEXP.Enabled = false;
             this.SetEXP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SetEXP.Location = new System.Drawing.Point(274, 87);
             this.SetEXP.Name = "SetEXP";
@@ -128,6 +130,7 @@
             // 
             this.EXPAmount.BackColor = System.Drawing.Color.Silver;
             this.EXPAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.EXPAmount.Enabled = false;
             this.EXPAmount.Location = new System.Drawing.Point(12, 87);
             this.EXPAmount.Name = "EXPAmount";
             this.EXPAmount.Size = new System.Drawing.Size(245, 20);
@@ -138,7 +141,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(144, 134);
+            this.label3.Location = new System.Drawing.Point(146, 123);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(204, 13);
             this.label3.TabIndex = 8;
@@ -166,12 +169,23 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "ETS2 Trainer";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(134, 147);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(227, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "As of the new update \"Set EXP\" Doesnt work!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(362, 166);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -210,6 +224,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

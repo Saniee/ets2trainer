@@ -73,7 +73,7 @@ namespace ETS2_Trainer
             }
             else
             {
-                m.WriteMemory("eurotrucks2.exe+01609BA0,10,10", "int", MoneyAmount.Text);
+                m.WriteMemory("eurotrucks2.exe+0170D0F0,10,10", "int", MoneyAmount.Text);
             }
         }
 
@@ -85,7 +85,8 @@ namespace ETS2_Trainer
             }
             else
             {
-                m.WriteMemory("eurotrucks2.exe+015E3478,28,408,590,0,FC", "int", EXPAmount.Text);
+                //m.WriteMemory("eurotrucks2.exe+016E67F0,278,740,0,FC", "int", EXPAmount.Text);
+                return;
             }
         }
 
